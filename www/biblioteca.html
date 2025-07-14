@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- TAB BAR-->
+            <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                    <a href="/index/" class="tab-link link active">
+                        <i class="mdi mdi-home-variant"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/biblioteca/" class="tab-link link">
+                        <i class="ri-bookmark-fill"></i>
+                        <span>Biblioteca</span>
+                    </a>
+                    <a href="/debates/" class="tab-link link">
+                        <i class="ri-chat-4-fill"></i>
+                        <span>Debates</span>
+                    </a>
+                    <a href="/atividades/" class="tab-link link">
+                        <i class="mdi mdi-clipboard-check"></i>
+                        <span>Atividades</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="biblioteca" class="page color-theme-blue">
+
+                <!-- Top Navbar -->
+                <div class="top-nav">
+                    <img src="img/icon-logo.png" alt="" class="icon-logo">
+                    <h1 class="title-logo">LêBits</h1>
+
+                    <div class="top-nav-icons">
+                        <a href="/carrinho/" class="btn-cart" data-count="3">
+                            <i class="mdi mdi-cart"></i>
+                        </a>
+                        <a href="/ajustes/" class="btn-gear">
+                            <i class="ri-settings-3-fill"></i>
+                        </a>
+                        <a href="#" class="btn-account">
+                            <i class="mdi mdi-account-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form>
+                    <input placeholder="Procurar Na sua Biblioteca..." type="text">
+                    <i class="icon-search ri-search-line"></i>
+                    <i class="icon-micro mdi mdi-microphone"></i>
+                    <i class="icon-star ri-star-fill"></i>
+                </form>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="block">
+                        <!-- Swiper -->
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                            <div class="swiper-slide"><span>Em progresso</span></div>
+                            <div class="swiper-slide"><span>Completos</span></div>
+                            <div class="swiper-slide"><span>Prontos para ler</span></div>
+                            </div>
+                        </div>
+
+                    <div id="listaCarrinho">
+                        <!-- ITEMS DO CARRINHO -->
+                         <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/livro_10.webp">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Não acredite em tudo...
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        123 páginas lidas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        2 horas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        28% Completos
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/livro_11.webp">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Romeu e Julieta
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        12 páginas lidasDescricao
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        4 horas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        4% Completos
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/livro_7.webp">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Mil Vezes Amor
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        60 páginas lidas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        10 horas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        Completo
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/livro_8.webp">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Queria morrer, mas no...
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        0 páginas lidas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        0 horas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        Você ainda não leu esse livro
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                         <div class="item-carrinho">
+                            <div class="area-img">
+                                <img src="img/livro_9.webp">
+                            </div>
+                            <div class="area-details">
+                                <div class="sup">
+                                    <span class="name-prod">
+                                        Amor à segunda vista
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        200 páginas lidas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        7 horas
+                                    </span>
+                                </div>
+                                <div class="middle">
+                                    <span>
+                                        97% Completos
+                                    </span>
+                                </div>
+                            </div>
+                         </div>
+                        
+                    
+                        
+
+                     <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="detalhes" class="page color-theme-blue">
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <div class="prod-detail">
+                            <div class="buttons-top">
+                                <a href="/index/">
+                                    <i class="ri-arrow-left-s-line titulo-detalhes"></i>
+                                </a>
+                                <a href="#">
+                                    Carta Psiconáutica
+                                </a>
+                                <a href="#">
+                                    <i class="ri-share-line"></i>
+                                </a>
+                            </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/livro_cartapsiconautica_1.jpeg"></div>
+                                <div class="swiper-slide"><img src="img/livro_cartapsiconautica_5.jpeg "></div>
+                                <div class="swiper-slide"><img src="img/livro_cartapsiconautica_3.jpeg"></div>
+                                <div class="swiper-slide"><img src="img/livro_cartapsiconautica_4.jpeg"></div>
+                                <div class="swiper-slide"><img src="img/livro_cartapsiconautica_2.jpeg"></div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div class="prod-content">
+                        <div class="block">
+                            <b>Carta Psiconáutica</b>
+
+                            <div class="display-flex align-items-center justify-content-start">
+                                <p class="nota-estrela">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </p>
+                                <p class="nota">4.8</p>
+                            </div>
+                            <div class="descricao">
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p> <span class="negrito">Editora:</span> Dantes. </p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p><span class="negrito">Autor:</span> Pedro Luz </p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p><span class="negrito">lançamento:</span> 12 abril 2007 </p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center">
+                                    <p> <span class="negrito">N* Páginas:</span> 300</p>
+                                    <p> <span class="negrito">N* Palavras:</span> 67 mil</p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p> <span class="negrito">idioma:</span> Português</p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p> <span class="negrito">Descrição:</span> </p>
+                                </div>
+                                <div class="descricao-item display-flex align-items-center justify-content-start">
+                                    <p>Nas tradições de inúmeras culturas, ao longo da história da humanidade, plantas psicoativas têm sido usadas para diversos fins em contextos sagrados, de cura e outros. Tais plantas, na modernidade, foram recuperadas para experiências sensíveis por parte de psiconautas, interessados em explorar seus efeitos bioquímicos e fisiológicos ou os estados místicos decorrentes da sua ingestão. É de maneira leve, agradável e bastante didática que o antropólogo e etnobotânico Pedro Fernandes Leite da Luz nos oferece esta instigante e muito bem desenhada Carta Psiconáutica.</p>
+                                </div>
+                            </div>
+                            <div class="adicionar-carrinho">
+                                <div class="display-flex align-items-center justify-content-center">
+                                    <div class="flex-40 text-align-center">
+                                        <span class="riscado color-gray">R$ 100</span>
+                                        <span class="preço no-padding no-margin">R$ 99</span>
+                                    </div>
+                                    <div class="flex-40">
+                                        <button class="add-cart">Adicionar carrinho</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
