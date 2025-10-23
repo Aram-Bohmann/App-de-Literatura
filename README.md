@@ -1,12 +1,12 @@
 # App-de-Literatura
 ### Descrição
-Este repositório foi criado para armazenar os códigos da aplicação móvel de literatura digital, desenvolvido no segundo trabalho de Conclusão Semestral no curso técnico em ciência de dados. Ele foi construído utilizando o Cordova, que possibilita criar apps usando o desenvolvimento WEB.
+Este repositório foi criado para armazenar os códigos da demonstração da aplicação móvel de literatura digital, que está sendo desenvolvido no trabalho de Conclusão de Curso, do curso técnico em Ciência de Dados. Ele foi construído utilizando o Cordova, que possibilita criar apps usando o desenvolvimento WEB.
 
 ## 🖼️ Imagens Visuais 
 Como não é possível realizar a instalação deste app, a seguir estão imagens de demonstração:
   
 ## 🔧 Ajustes e Melhorias
-O projeto ainda está em desenvolvimento, e ao decorrer do curso técnico em ciência de dados será atualizado o projeto.
+O projeto ainda está em desenvolvimento, e ao decorrer do curso técnico em ciência de dados será atualizado o projeto. Atualmente estamos trabalhando na construção do banco de dados do mesmo. Posteriormente será publicada a documentação acadêmica dele.
 
 ## 🛠️ Construído com
 
