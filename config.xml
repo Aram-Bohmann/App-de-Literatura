@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.lebits" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LêBits</name>
+    <description>LêBits Cordova App</description>
+    <author email="xboxaramxbox@gmail.com" href="mailto:arambohmannleitedaluz@gmail.com">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="https://www.linkedin.com/in/aram-luz-1b0ab1321" />
+    <allow-intent href="https://github.com/Aram-Bohmann" />
+    <allow-intent href="https://aram-bohmann.github.io/Site-Portfolio" />
+</widget>

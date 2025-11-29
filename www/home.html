@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page color-theme-blue">
+                    <!-- Top Navbar -->
+                    <div class="top-nav">
+                        <img src="img/icon-logo.png" alt="" class="icon-logo">
+                        <h1 class="title-logo">LêBits</h1>
+
+                        <div class="top-nav-icons">
+                            <a href="/perfil/" class="btn-account">
+                                <i class="mdi mdi-account-circle"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                <div class="page-content">
+                    <form class="caixa-texto">
+                        <input placeholder="No que está pensando?" type="text">
+                        <i class="icon-search ri-search-line"></i>
+                        <i class="icon-micro mdi mdi-microphone"></i>
+                        <button class="sumir">
+                            <a href="/detalhesSurpresa/" >
+                            <img src="img/icon-surpresa.png" alt="" class="icon-surpresa">
+                            </a>
+                        </button>
+                    </form>
+                    <!--Conteudo-->
+                    <!-- Category Tabs -->
+                    
+                        <div class="category-tabs">
+                            <button class="category-tab active">E-books</button>
+                            <button class="category-tab">Audiolivros</button>
+                            <button class="category-tab">Didático</button>
+                            <button class="category-tab">Comunidade</button>
+                        </div>
+                        <!-- Book Section: Preferências -->
+                        <section class="book-section">
+                        <h2 class="section-title">Com base em suas Preferências</h2>
+                        <div class="books-container">
+                            <a href="/detalhes/">
+                                <div class="book-card">
+                                <img
+                                    src="img/A biblioteca da Meia Noite.png"
+                                    alt="A Biblioteca da Meia-Noite"
+                                    class="book-cover"
+                                />
+                                <h3 class="book-title">A Biblioteca da Meia-Noite</h3>
+                                <p class="book-author">Matt Haig</p>
+                                <div class="book-stats">
+                                    <div class="stat">
+                                    <svg class="stat-icon" viewBox="0 0 24 24">
+                                        <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                        <circle cx="12" cy="12" r="3" />
+                                    </svg>
+                                    <span>264 K</span>
+                                    </div>
+                                    <div class="stat">
+                                    <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                    <span>5,0</span>
+                                    </div>
+                                </div>
+                                </div>
+                            </a>
+
+                            <div class="book-card">
+                            <img
+                                src="img/pessoas normais.png"
+                                alt="Pessoas Normais"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">Pessoas Normais</h3>
+                            <p class="book-author">Sally Rooney</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>128 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>4,3</span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="book-card">
+                            <img
+                                src="img/o sol e para todos.png"
+                                alt="O sol é para todos"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">O sol é para todos</h3>
+                            <p class="book-author">Harper Lee</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>14 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>3,1</span>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="book-card">
+                            <img
+                                src="img/carta.png"
+                                alt="O sol é para todos"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">Carta Psiconáutica</h3>
+                            <p class="book-author">Pedro Luz</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>673 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>4,9</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </section>
+
+                        <!-- Book Section: Fantasias Ilustradas -->
+                        <section class="book-section">
+                        <h2 class="section-title">Fantasias Ilustradas</h2>
+                        <div class="books-container">
+                            <div class="book-card">
+                            <img
+                                src="img/Belo mundo , onde voce esta.png"
+                                alt="Belo Mundo, Onde Você Está"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">Belo Mundo, Onde Você Está</h3>
+                            <p class="book-author">Sally Rooney</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>264 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>5,0</span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="book-card">
+                            <img
+                                src="img/duna.png"
+                                alt="Duna"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">Duna</h3>
+                            <p class="book-author">Frank Herbert</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>128 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>4,3</span>
+                                </div>
+                            </div>
+                            </div>
+
+                            <div class="book-card">
+                            <img
+                                src="img/kiki's delivery service.png"
+                                alt="Kiki's Delivery Service"
+                                class="book-cover"
+                            />
+                            <h3 class="book-title">Kiki's Delivery Service</h3>
+                            <p class="book-author">Eiko Kadono</p>
+                            <div class="book-stats">
+                                <div class="stat">
+                                <svg class="stat-icon" viewBox="0 0 24 24">
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                                    <circle cx="12" cy="12" r="3" />
+                                </svg>
+                                <span>128 K</span>
+                                </div>
+                                <div class="stat">
+                                <svg class="stat-icon star-icon" viewBox="0 0 24 24">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                </svg>
+                                <span>4,3</span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <br><br><br><br><br>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="detalhes" class="page color-theme-blue">
+
+                <!-- Top Navbar -->
+                <div class="top-nav">
+                    <img src="img/icon-logo.png" alt="" class="icon-logo">
+                    <h1 class="title-logo">LêBits</h1>
+
+                    <div class="top-nav-icons">
+                        <a href="#" class="btn-account">
+                            <i class="mdi mdi-account-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                    <!-- Content -->
+                    <div class="content">
+                        <!-- Back Button -->
+                        <button class="back-button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 12H5M12 19l-7-7 7-7"/>
+                            </svg>
+                        </button>
+
+                        <!-- Book Info Section -->
+                        <div class="book-sectionDE">
+                            <!-- Book Cover -->
+                            <img src="img/A biblioteca da Meia Noite.png" class="book-coverDE" alt="">
+
+                            <!-- Book Details -->
+                            <div class="book-detailsDE">
+                                <h2 class="book-titleDE">A Biblioteca da Meia-Noite</h2>
+                                <p class="book-authorDE">Matt Haig</p>
+                                <p class="book-publisher">Dantes Editora</p>
+                                <p class="book-year">2015</p>
+                                <a href="/detalhesadicionado/">
+                                <button class="add-button">Adicionar</button>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Stats -->
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-value">5.0</div>
+                                <div class="stat-label">264K avaliações</div>
+                            </div>
+                            <div class="stat-item stat-divider">
+                                <div class="stat-value">329</div>
+                                <div class="stat-label">Páginas</div>
+                            </div>
+                            <div class="stat-item stat-divider">
+                                <div class="stat-value">Ficção</div>
+                                <div class="stat-label">Gênero</div>
+                            </div>
+                            <div class="stat-item stat-divider">
+                                <div class="stat-value">10</div>
+                                <div class="stat-label">Idade</div>
+                            </div>
+                        </div>
+
+                        <!-- About Section -->
+                        <div class="section">
+                            <p class="about-text">
+                                Este livro, caro leitor, é a materialização de um sussurro capturado pelo vento. Não segue as rotas convencionais da literatura...
+                            </p>
+                        </div>
+
+                        <!-- Rating Distribution -->
+                        <div class="section">
+                            <div class="rating-section">
+                                <div class="rating-box">4.2</div>
+                                <div class="rating-bars">
+                                    <div class="rating-bar">
+                                        <span class="rating-number">5</span>
+                                        <div class="bar-container">
+                                            <div class="bar-fill" style="width: 85%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span class="rating-number">4</span>
+                                        <div class="bar-container">
+                                            <div class="bar-fill" style="width: 60%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span class="rating-number">3</span>
+                                        <div class="bar-container">
+                                            <div class="bar-fill" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span class="rating-number">2</span>
+                                        <div class="bar-container">
+                                            <div class="bar-fill" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span class="rating-number">1</span>
+                                        <div class="bar-container">
+                                            <div class="bar-fill" style="width: 25%"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Reviews -->
+                        <div class="reviews">
+                            <div class="review">
+                                <div class="review-avatar"></div>
+                                <div class="review-content">
+                                    <div class="review-header">
+                                        <h4 class="review-name">Nome</h4>
+                                        <div class="review-rating">
+                                            <span class="rating-value">4/5</span>
+                                            <span class="star">⭐</span>
+                                        </div>
+                                    </div>
+                                    <p class="review-text">Comentário.</p>
+                                </div>
+                            </div>
+                            <div class="review">
+                                <div class="review-avatar"></div>
+                                <div class="review-content">
+                                    <div class="review-header">
+                                        <h4 class="review-name">Enzo</h4>
+                                        <div class="review-rating">
+                                            <span class="rating-value">1/5</span>
+                                            <span class="star">⭐</span>
+                                        </div>
+                                    </div>
+                                    <p class="review-text">Achei esse livro bem top, nota 10.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br><br><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

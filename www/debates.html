@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="debates" class="page color-theme-blue">
+
+                <!-- Top Navbar -->
+                <div class="top-nav">
+                    <img src="img/icon-logo.png" alt="" class="icon-logo">
+                    <h1 class="title-logo">LêBits</h1>
+
+                    <div class="top-nav-icons">
+                        <a href="#" class="btn-account">
+                            <i class="mdi mdi-account-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="caixa-texto">
+                    <input placeholder="No que está pensando?" type="text">
+                    <i class="icon-search ri-search-line"></i>
+                    <i class="icon-micro mdi mdi-microphone"></i>
+                    <i class="icon-star mdi mdi-star"></i>
+                </form>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+                        <!-- Debates List -->
+                        <div class="debates-container">
+
+
+                            <!-- Debate 2 - Pessoas Normais -->
+                            <div class="debate-item">
+                                <img src="img/pessoas normais.png" alt="Pessoas Normais" class="book-coverD">
+                                <div class="debate-content">
+                                    <div>
+                                        <div class="book-titleD">Pessoas Normais</div>
+                                        <div class="debate-question">O final é realmente bom?</div>
+                                    </div>
+                                    <div class="debate-footer">
+                                        <span class="debate-type">Público</span>
+                                        <span class="debate-time">16:06</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Debate 3 - Duna -->
+                            <div class="debate-item">
+                                <img src="img/duna.png" class="book-coverD">
+                                <div class="debate-content">
+                                    <div>
+                                        <div class="book-titleD">Duna</div>
+                                        <div class="debate-question">O Plot Twist é uma metáfora ao capitalismo?</div>
+                                    </div>
+                                    <div class="debate-footer">
+                                        <span class="debate-type">Particular</span>
+                                        <span class="debate-time">Ontem</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Debate 4 - Belo mundo, Onde Você Está -->
+                            <div class="debate-item">
+                                <img src="img/Belo mundo , onde voce esta.png" class="book-coverD">
+                                <div class="debate-content">
+                                    <div>
+                                        <div class="book-titleD">Belo mundo, Onde Você Está</div>
+                                        <div class="debate-question">Este livro merecia mais reconhecimento?</div>
+                                    </div>
+                                    <div class="debate-footer">
+                                        <span class="debate-type">Público</span>
+                                        <span class="debate-time">04/07</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Debate 5 - O sol é Para Todos -->
+                            <div class="debate-item">
+                                <img src="img/o sol e para todos.png" class="book-coverD">
+                                <div class="debate-content">
+                                    <div>
+                                        <div class="book-titleD">O sol é Para Todos</div>
+                                        <div class="debate-question">Como seria um filme desse livro?</div>
+                                    </div>
+                                    <div class="debate-footer">
+                                        <span class="debate-type">Público</span>
+                                        <span class="debate-time">03/07</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                       <br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

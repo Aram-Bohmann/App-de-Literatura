@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="atividades" class="page color-theme-blue">
+
+                <!-- Top Navbar -->
+                <div class="top-nav">
+                    <img src="img/icon-logo.png" alt="" class="icon-logo">
+                    <h1 class="title-logo">LêBits</h1>
+
+                    <div class="top-nav-icons">
+                        <a href="#" class="btn-account">
+                            <i class="mdi mdi-account-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <!-- User Level -->
+                <div class="user-level">
+                    <div class="level-info">
+                        <span class="user-name">Nome do Usuário</span>
+                        <span class="level-separator">•</span>
+                        <span class="level-badge">Nível 07</span>
+                    </div>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 30%;"></div>
+                        <span class="progress-text">12.000/40.000 de EXP</span>
+                    </div>
+                </div>
+
+                <div class="category-tabs">
+                    <button class="category-tab active">Diárias</button>
+                    <button class="category-tab">Semanais</button>
+                    <button class="category-tab">Mensais</button>
+                </div>
+                <div class="page-content">
+                    <div class="block">
+                        <!-- Missions -->
+                        <div class="missions">
+                            <!-- Mission 1 -->
+                            <div class="mission-card">
+                                <div class="mission-icon">
+                                    <img class="mission-icon" src="img/Atividade (2).png">
+                                </div>
+                                <div class="mission-content">
+                                    <h3 class="mission-title">Nome da Missão</h3>
+                                    <p class="mission-description">Descrição da missão</p>
+                                    <div class="mission-progress-container">
+                                        <div class="mission-progress-bar">
+                                            <div class="mission-progress-fill" style="width: 50%;"></div>
+                                        </div>
+                                        <span class="mission-progress-text">1/2<span class="mission-reward">ㅤ+ 2.000 de EXP</span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mission 2 -->
+                            <div class="mission-card">
+                                <div class="mission-icon">
+                                    <img class="mission-icon" src="img/Atividade (1).png" alt="">
+                                </div>
+                                <div class="mission-content">
+                                    <h3 class="mission-title">Apetite Literário</h3>
+                                    <p class="mission-description">Leia por pelo menos 15 minutos hoje.</p>
+                                    <div class="mission-progress-container">
+                                        <div class="mission-progress-bar">
+                                            <div class="mission-progress-fill" style="width: 6.67%;"></div>
+                                        </div>
+                                        <span class="mission-progress-text">1/15<span class="mission-reward">ㅤ+ 3.000 de EXP</span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mission 3 -->
+                            <div class="mission-card">
+                                <div class="mission-icon">
+                                    <img class="mission-icon" src="img/Atividade (4).png" alt="">
+                                </div>
+                                <div class="mission-content">
+                                    <h3 class="mission-title">Maratonista Diário</h3>
+                                    <p class="mission-description">Complete a leitura de 6 páginas em um único dia.</p>
+                                    <div class="mission-progress-container">
+                                        <div class="mission-progress-bar">
+                                            <div class="mission-progress-fill" style="width: 66.67%;"></div>
+                                        </div>
+                                        <span class="mission-progress-text">4/6<span class="mission-reward">ㅤ+ 2.500 de EXP</span></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Mission 4 -->
+                            <div class="mission-card">
+                                <div class="mission-icon">
+                                    <img class="mission-icon" src="img/Atividade (3).png" alt="">
+                                </div>
+                                <div class="mission-content">
+                                    <h3 class="mission-title">Sequência Imbatível</h3>
+                                    <p class="mission-description">Mantenha sua sequência de leitura diária por mais um dia</p>
+                                    <div class="mission-progress-container">
+                                        <div class="mission-progress-bar">
+                                            <div class="mission-progress-fill" style="width: 50%;"></div>
+                                        </div>
+                                        <span class="mission-progress-text">1/2<span class="mission-reward">ㅤ+ 6.000 de EXP</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><br><br><br><br><br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

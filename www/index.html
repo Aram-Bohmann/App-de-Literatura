@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+
+            <!-- TAB BAR-->
+            <div id="menuPrincipal" class="toolbar toolbar-bottom">
+                <div class="toolbar-inner display-flex">
+                    <a href="/home/" class="tab-link link active">
+                        <i class="mdi mdi-home-variant"></i>
+                        <span>Home</span>
+                    </a>
+                    <a href="/biblioteca/" class="tab-link link">
+                        <i class="ri-bookmark-fill"></i>
+                        <span>Biblioteca</span>
+                    </a>
+                    <a href="/debates/" class="tab-link link">
+                        <i class="ri-chat-4-fill"></i>
+                        <span>Debates</span>
+                    </a>
+                    <a href="/atividades/" class="tab-link link">
+                        <i class="mdi mdi-clipboard-check"></i>
+                        <span>Atividades</span>
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="index" class="page color-theme-blue no-toolbar">
+                <div class="container">
+
+                    <img src="img/flor-direita.png" alt="" class="leaves-decoration leaves-top-right">
+                    
+                    <img src="img/flor-esquerda.png" alt="" class="leaves-decoration leaves-bottom-left">
+
+                    <!-- Main content -->
+                    <main class="main-contentI">
+                        <!-- Book illustration -->
+                        <div class="book-container">
+                            <img 
+                                src="img/logogrande.png" 
+                                alt="Livro aberto com folhas de outono"
+                                class="book-image"
+                            />
+                        </div>
+
+                        <!-- Logo text -->
+                        <h1 class="logo">LêBits</h1>
+
+                        <!-- Buttons -->
+                        <div class="buttons-container">
+                            <a href="/home/">
+                            <button class="btnI btn-primary">
+                                Conecte-Se
+                            </button></a>
+                            
+                            <button class="btnI btn-secondary">
+                                Registre-Se
+                            </button>
+                        </div>
+
+                        <!-- Visitor link -->
+                        <div class="visitor-link">
+                            <p>
+                                Entrar como 
+                                <a href="#" class="link-visitor">visitante</a>.
+                            </p>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>

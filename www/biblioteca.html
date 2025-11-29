@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>LêBits</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="lib/framework7-bundle.min.css">
+    <!-- CSS PERSONALIZADO PARA MENU-->
+    <link rel="stylesheet" href="css/personalizado.css">
+    <!--Ícones Material Design-->
+    <link rel="stylesheet" href="css/materialdesignicons.min.css">
+    <!--RemixIcon-->
+    <link rel="stylesheet" href="css/remixicon/remixicon.css">
+
+
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view">
+
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="biblioteca" class="page color-theme-blue">
+                <!-- Top Navbar -->
+                <div class="top-nav">
+                    <img src="img/icon-logo.png" alt="" class="icon-logo">
+                    <h1 class="title-logo">LêBits</h1>
+
+                    <div class="top-nav-icons">
+                        <a href="#" class="btn-account">
+                            <i class="mdi mdi-account-circle"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <form>
+                    <input placeholder="Em qual livro você está em busca?" type="text">
+                    <i class="icon-search ri-search-line"></i>
+                    <i class="icon-micro-biblioteca mdi mdi-microphone"></i>
+                </form>
+
+                <div class="category-tabs">
+                    <button class="category-tab active">Seus Livros</button>
+                    <button class="category-tab">Estante</button>
+                    <button class="category-tab">Downloads</button>
+                </div>
+                <div class="page-content">
+                    <!-- Book List -->
+                    <main class="book-listB">
+                        <!-- Book Card 1 -->
+                        <div class="book-cardB">
+                            <div class="book-coverB">
+                                <img class="book-cover-placeholderB" src=" img/the crow folk.png" alt="">
+                            </div>
+                            <div class="book-infoB">
+                                <h3 class="book-titleB">The Crow Folk</h3>
+                                <div class="book-author-ratingB">
+                                    <span class="book-authorB">Mark Stay</span>
+                                    <svg class="star-iconB" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <span class="book-ratingB">4,9</span>
+                                </div>
+                                <p class="book-descriptionB">Este livro, caro leitor, é a materialização de um sussurro capturado pelo vento. Não segue as rotas convencionais da literatura.</p>
+                                <span class="book-progressB">37% concluído</span>
+                            </div>
+                            <button class="download-btnB">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <!-- Book Card 2 -->
+                        <div class="book-cardB">
+                            <div class="book-coverB">
+                                <img class="book-cover-placeholderB" src="img/the lion the witch and the wardrobe.png" alt="">
+                            </div>
+                            <div class="book-infoB">
+                                <h3 class="book-titleB">The Lion, The Witch and...</h3>
+                                <div class="book-author-ratingB">
+                                    <span class="book-authorB">Mark Stay</span>
+                                    <svg class="star-iconB" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <span class="book-ratingB">3,1</span>
+                                </div>
+                                <p class="book-descriptionB">"Em um mundo onde o céu é cinza e as memórias são um luxo, o que resta da humanidade?"</p>
+                                <span class="book-progressB">68% concluído</span>
+                            </div>
+                            <button class="download-btnB">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <!-- Book Card 3 -->
+                        <div class="book-cardB">
+                        <a href="/livro/" class="aB">
+                            <div class="book-coverB">
+                                <img class="book-cover-placeholderB" src="img/A biblioteca da Meia Noite.png" alt="">
+                            </div>
+                            <div class="book-infoB">
+                                <h3 class="book-titleB">A Biblioteca da Meia-Noite</h3>
+                                <div class="book-author-ratingB">
+                                    <span class="book-authorB">Matt Haig</span>
+                                    <svg class="star-iconB" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    <span class="book-ratingB">5,0</span>
+                                </div>
+                                <p class="book-descriptionB">Mais do que apenas uma história de sobrevivência, este livro é um espelho para o nosso próprio tempo.</p>
+                                <span class="book-progressB">0% concluído</span>
+                            </div>
+                            <button class="download-btnB">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                                </svg>
+                            </button>
+                        </a>
+                        </div>
+                        <br><br><br><br><br><br><br><br>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7-bundle.min.js"></script>
+	<!-- jQuery -->
+	<script type="text/javascript" src="lib/jquery-3.7.0.min.js"></script>	
+    <!-- Roteamento do app-->
+    <script type="text/javascript" src="js/routes.js"></script>
+    <script src="cordova.js"></script>
+</body>
+
+</html>
