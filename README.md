@@ -27,7 +27,7 @@ A seguir estão alguns exemplos das telas do app:
 <img width="201" height="420" alt="Change-This-10" src="https://github.com/user-attachments/assets/257c0d72-7bc6-4b55-8336-b57fda8ae983" />
 
 ## TCC
-Para acessar o TCC completo, contendo a descrição detalhada das telas, arquitetura do banco de dados e decisões de desenvolvimento, consulte meu [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7404479043800088577/).
+Para acessar o TCC completo, contendo a descrição detalhada das telas, arquitetura do banco de dados e decisões de desenvolvimento, consulte [aqui](https://github.com/Aram-Bohmann/TCC-Aplicacao-Movel-de-Literatura-Digital).
 
 ## 🛠️ Construído com
 * [Cordova](https://cordova.apache.org) - O apache utilizado para a criação do aplicativo móvel com HTML, CSS e JS
