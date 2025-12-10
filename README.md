@@ -1,9 +1,13 @@
 # App-de-Literatura
 ### Descrição
-Este repositório armazenar os códigos do teste de usabilidade da aplicação móvel de literatura digital nomeada LêBits, que foi desenvolvido no trabalho de Conclusão de Curso, do curso técnico em Ciência de Dados. Ele foi construído utilizando a tecnologia Cordova, que possibilita criar apps usando a tecnologia WEB.
+Este repositório contém o código-fonte do aplicativo móvel LêBits, desenvolvido como parte do Trabalho de Conclusão de Curso do curso técnico em Ciência de Dados.
+
+O app foi construído utilizando Apache Cordova, permitindo o desenvolvimento de aplicações móveis usando tecnologias web como HTML, CSS e JavaScript, com interface responsiva e funcionalidades interativas para leitura digital.
 
 ## Download
-Para realizar o download deste app, é necessário possuir todas as dependêcias do Cordova 1.13.0. O uso desse repositório é livre.
+Para executar ou baixar este aplicativo, é necessário possuir todas as dependências do Cordova 1.13.0 instaladas.
+
+O uso deste repositório é livre e aberto, podendo ser estudado, modificado ou implementado conforme sua necessidade.
 
 ## 🖼️ Telas
 A seguir estão alguns exemplos das telas do app:
@@ -23,7 +27,7 @@ A seguir estão alguns exemplos das telas do app:
 <img width="201" height="420" alt="Change-This-10" src="https://github.com/user-attachments/assets/257c0d72-7bc6-4b55-8336-b57fda8ae983" />
 
 ## TCC
-Se quiser ver o trabalho completo, com a descrição das telas, criação do banco de dados entre outros, acesse meu LinkedIn e aproveite!
+Para acessar o TCC completo, contendo a descrição detalhada das telas, arquitetura do banco de dados e decisões de desenvolvimento, consulte meu [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7404479043800088577/).
 
 ## 🛠️ Construído com
 * [Cordova](https://cordova.apache.org) - O apache utilizado para a criação do aplicativo móvel com HTML, CSS e JS
