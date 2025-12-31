@@ -54,15 +54,11 @@ LêBits é uma aplicação móvel híbrida desenvolvida com **Apache Cordova** q
 
 ## 🖼️ Capturas de Tela
 
-### Autenticação & Onboarding
-
 <p align="center">
   <img width="200" alt="Tela de Carregamento" src="https://github.com/user-attachments/assets/1737b482-b01c-408f-92bc-acca6a32cd43" />
   <img width="200" alt="Login" src="https://github.com/user-attachments/assets/3391b3a4-ba77-4798-afca-7013c7a16899" />
   <img width="200" alt="Registro" src="https://github.com/user-attachments/assets/2e92d503-67d2-4695-aa98-dd442b64ffb2" />
 </p>
-
-### Navegação Principal
 
 <p align="center">
   <img width="200" alt="Tela Inicial" src="https://github.com/user-attachments/assets/920e7025-d884-4c3d-85b1-5a155c4f9a6b" />
@@ -70,15 +66,11 @@ LêBits é uma aplicação móvel híbrida desenvolvida com **Apache Cordova** q
   <img width="200" alt="Debates" src="https://github.com/user-attachments/assets/b655c4a4-e3f0-44cb-a7da-f8c544829a52" />
 </p>
 
-### Leitura & Personalização
-
 <p align="center">
   <img width="200" alt="Leitor" src="https://github.com/user-attachments/assets/84abf417-76d6-479d-b3ae-0c577c1ea2cf" />
   <img width="200" alt="Personalização" src="https://github.com/user-attachments/assets/b9623d06-afbf-4637-90a9-b0a1b2609e1c" />
   <img width="200" alt="Modo Noturno" src="https://github.com/user-attachments/assets/c76febc8-af52-4264-8b50-a8bb0a74e7ee" />
 </p>
-
-### Perfil & Gamificação
 
 <p align="center">
   <img width="200" alt="Perfil" src="https://github.com/user-attachments/assets/d20db5bc-69c5-4c63-89d9-08a1e8b669e8" />
