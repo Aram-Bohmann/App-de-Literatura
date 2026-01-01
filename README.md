@@ -29,7 +29,6 @@ LêBits é uma aplicação móvel híbrida desenvolvida com **Apache Cordova** q
 - **Cores customizáveis** (texto, fundo, contorno)
 - **Luminosidade adaptativa** com 10 níveis
 - **Modo noturno** para leitura sem cansaço visual
-- **3 modos de visualização** (claro, escuro, sépia)
 
 #### 🎮 Gamificação Completa
 - **Sistema de XP e níveis** progressivos
@@ -171,7 +170,7 @@ cordova build android --release
 
 | Métrica | Valor |
 |---------|-------|
-| 📱 **Telas desenvolvidas** | 18 |
+| 📱 **Telas desenvolvidas** | 18+ |
 | 💻 **Linhas de código** | ~5.000 |
 | 🎨 **Componentes UI** | 45+ |
 | 🔧 **Plugins Cordova** | 5 |
